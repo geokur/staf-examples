@@ -1,0 +1,22 @@
+{
+  "name": "staf-examples",
+  "version": "1.0.0",
+  "description": "Examples for staf",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/staf test-config.js"
+  },
+  "keywords": [
+    "staf",
+    "examples"
+  ],
+  "dependencies": {
+    "staf": "^1.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geokur/staf-examples.git"
+  }
+}
