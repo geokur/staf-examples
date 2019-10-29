@@ -1,14 +1,14 @@
 const assert = require('assert').strict
 
 class PropertyTest {
-    myPositiveTest(properties) {
-        properties.type = 'positive'
+    myPositiveTest(testProperties) {
+        testProperties.type = 'positive'
         return () => {
             assert.ok(true)
         }
     }
-    myNegativeTest(properties) {
-        properties.type = 'negative'
+    myNegativeTest(testProperties) {
+        testProperties.type = 'negative'
         return () => {
             assert.ok(false)
         }
